@@ -28,6 +28,7 @@ public class ManagerSinhVien {
     public void moreStudents(SinhVien sv) {
         this.sinhViens.add(sv);
         IOStudent.write(sinhViens);
+        IOStudent.read();
     }
 
     public void update() {
@@ -41,6 +42,7 @@ public class ManagerSinhVien {
 
         }
         IOStudent.write(sinhViens);
+        IOStudent.read();
     }
 
     public SinhVien creatStudent() {
@@ -76,6 +78,7 @@ public class ManagerSinhVien {
         }
 
         IOStudent.write(sinhViens);
+        IOStudent.read();
     }
 
     public void sort() {
